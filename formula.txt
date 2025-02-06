@@ -1,0 +1,4 @@
+1. formula for sum of n numbers: (n(n+1)) / 2
+2. formula for simple intrest: (p*r*t) / 100
+3. formula for permutation: npr = n!/ (n-r)!
+4. formula for combination: ncr = n! / r!(n-r)!
