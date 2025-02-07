@@ -2,3 +2,4 @@
 2. formula for simple intrest: (p*r*t) / 100
 3. formula for permutation: npr = n!/ (n-r)!
 4. formula for combination: ncr = n! / r!(n-r)!
+5. formula for sqrt of a num: sqrt = n ** 1/2 or n ** 0.5
