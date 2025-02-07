@@ -1,7 +1,6 @@
 def binary_search(arr: list, target: int) -> int:
     low = 0
     high = len(arr) - 1
-    mid = low + (high-low) // 2 
     while high>=low:
         mid = low + (high-low) // 2 
         if target == arr[mid]:
