@@ -1,0 +1,1140 @@
+source: https://www.ccbp.in/blog/articles/python-mcqs
+------------------------------Python Basics and Syntax--------------------------------------
+Q1: Which of the following is the correct way to declare a variable in Python?
+
+A) int x = 10
+B) x := 10
+C) x = 10
+D) var = 10
+Answer: C) x = 10
+
+Q2: What is the output of print(3 + 2 * 2) in Python?
+
+A) 7
+B) 10
+C) 8
+D) 5
+Answer: A) 7
+
+Q3: Which of the following is used for comments in Python?
+A) //
+B) /* */
+C) #
+D) <!-- -->
+Answer: C) #
+
+Q4: What output can be expected from the following Python code??
+
+x = "Python"
+print(x[1])
+
+A) "P"
+B) "y"
+C) "o"
+D) Error
+Answer: B) "y"
+
+Q5: Which of the following is a valid variable name in Python?
+
+A) 1variable
+B) variable_name
+C) variable-name
+D) var@name
+Answer: B) variable_name
+
+Q6: Which of the following is not a data type in Python?
+
+A) int
+B) string
+C) char
+D) list
+Answer: C) char
+
+Q7: What will the following code output?
+
+x = 5
+x = x + 2
+print(x)
+
+A) 5
+B) 7
+C) 10
+D) Error
+Answer: B) 7
+
+Q8: What is the output of print(type("Hello"))?
+
+A) <class 'int'>
+B) <class 'str'>
+C) <class 'float'>
+D) <class 'list'>
+Answer: B) <class 'str'>
+
+Q9: Which of the following operators is used to concatenate two strings in Python?
+
+A) +
+B) -
+C) *
+D) /
+Answer: A) +
+
+Q10: What is the result of 3 == 3 in Python?
+A) True
+B) False
+C) None
+D) Error
+Answer: A) True
+
+Q11: Which of the following is used to check the data type of a variable in Python?
+
+A) type()
+B) typeof()
+C) datatype()
+D) check()
+Answer: A) type()
+
+Q12: What will the result be for the following Python code??
+
+x = 10
+y = 20
+print(x + y)
+
+A) 30
+B) 10
+C) 20
+D) Error
+Answer: A) 30
+
+Q13: What does the input() function do in Python?
+
+A) Reads input from the console
+B) Outputs data to the console
+C) Converts input into an integer
+D) Allows reading from a file
+Answer: A) Reads input from the console
+
+Q14: How do you make a string lowercase in Python?
+
+A) string.lower()
+B) string.toLower()
+C) string.lowercase()
+D) lower(string)
+Answer: A) string.lower()
+
+Q15: Which of the following is an example of a float in Python?
+
+A) 10
+B) 10.5
+C) "10"
+D) 10,5
+Answer: B) 10.5
+
+Q16: How do you convert a string to an integer in Python?
+
+A) int(string)
+B) str(string)
+C) float(string)
+D) convert(string)
+Answer: A) int(string)
+
+----------------------------------Control Structures-------------------------------------------
+
+Q1: What will the result be for the following Python code??
+
+for i in range(3):
+    print(i)
+
+A) 0 1 2
+B) 1 2 3
+C) 0 1 2 3
+D) Error
+Answer: A) 0 1 2
+
+Q2: Which of the following statements is used to exit a loop in Python?
+
+A) continue
+B) break
+C) exit
+D) end
+Answer: B) break
+
+Q3: What output can be expected from the following Python code?
+
+x = 10
+if x > 5:
+    print("Greater")
+else:
+    print("Lesser")
+
+A) Greater
+B) Lesser
+C) Error
+D) None
+
+Answer: A) Greater
+
+Q4: What does the continue statement do in Python?
+
+A) Terminates the loop
+B) Skips the current iteration and continues to the next one
+C) Ends the program
+D) Skips the loop entirely
+Answer: B) Skips the current iteration and continues to the next one
+
+Q5: What output can be expected from the following Python code?
+
+x = 0
+while x < 3:
+    print(x)
+    x += 1
+
+A) 1 2 3
+B) 0 1 2
+C) 0 1 2 3
+D) Error
+Answer: B) 0 1 2
+
+Q6: What will the following code output?
+
+x = 2
+y = 3
+if x > y:
+    print("X is greater")
+else:
+    print("Y is greater")
+
+A) X is greater
+B) Y is greater
+C) Error
+D) None
+
+Answer: B) Y is greater
+
+Q7: Which loop is guaranteed to execute at least once in Python?
+
+A) for loop
+B) while loop
+C) Both
+D) None
+Answer: B) while loop
+
+Q8: How do you skip to the next iteration in a loop?
+
+A) next
+B) skip
+C) continue
+D) exit
+Answer: C) continue
+
+Q9: What will the result be for the following Python code??
+
+for i in range(2, 10, 2):
+    print(i)
+
+A) 2 4 6 8
+B) 2 4 6 8 10
+C) 1 3 5 7 9
+D) 2 4 6
+Answer: A) 2 4 6 8
+
+Q10: What output can be expected from the following Python code?
+
+x = 5
+if x == 5:
+    print("Five")
+elif x > 3:
+    print("Greater than three")
+else:
+    print("Less than five")
+
+A) Five
+B) Greater than three
+C) Less than five
+D) None
+Answer: A) Five
+
+Q11: What will the result be for the following Python code??
+
+x = 10
+if x > 5:
+    print("Greater")
+elif x == 10:
+    print("Equal to 10")
+else:
+    print("Lesser")
+
+A) Greater
+B) Equal to 10
+C) Lesser
+D) Error
+Answer: B) Equal to 10
+
+Q12: How do you define a while loop in Python?
+
+A) while condition:
+B) for condition:
+C) loop condition:
+D) repeat while condition:
+Answer: A) while condition:
+
+Q13: What will the following code output?
+
+x = 2
+while x < 5:
+    print(x)
+    x += 1
+
+A) 2 3 4 5
+B) 2 3 4
+C) 1 2 3 4
+D) 1 2 3
+Answer: B) 2 3 4
+
+Q14: Which of the following is the correct syntax for an infinite loop in Python?
+
+A) while True:
+B) for i in range(10):
+C) while x:
+D) None of the above
+Answer: A) while True:
+
+Q15: What output can be expected from the following Python code?
+
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+
+A) 0 1 2 3
+B) 0 1 2
+C) 0 1 2 3 4
+D) 3
+Answer: B) 0 1 2
+
+Q16: How can you skip an iteration in a loop in Python?
+
+A) break
+B) stop
+C) skip
+D) continue
+Answer: D) continue
+
+Q17: What is the purpose of the else clause in a loop in Python?
+
+A) It is used to terminate the loop early
+B) It executes if the loop completes without a break
+C) It is used to define a new loop
+D) None of the above
+Answer: B) It executes if the loop completes without a break
+
+Q18:  What will the following code output?
+
+x = 1
+while x <= 5:
+    print(x)
+    x += 1
+else:
+    print("End")
+
+A) 1 2 3 4 5 End
+B) 1 2 3 4 5
+C) End
+D) Error
+Answer: A) 1 2 3 4 5 End
+
+-------------------------------------Functions and Modules----------------------------------------
+Q1: What is the method to define a function in Python?
+
+A) def function_name[]:
+B) function function_name():
+C) def function_name():
+D) func function_name():
+Answer: C) def function_name():
+
+Q2: What will the result be for the following Python code??
+
+def greet(name):
+    return "Hello, " + name
+
+print(greet("Alice"))
+
+A) Hello
+B) Alice
+C) Hello, Alice
+D) Error
+Answer: C) Hello, Alice
+
+Q3: What output can be expected from the following Python code?
+
+def add(a, b):
+    return a + b
+
+print(add(5, 3))
+
+A) 5
+B) 8
+C) 53
+D) Error
+Answer: B) 8
+
+Q4: Which of the following is the correct way to import a module in Python?
+
+A) import module_name
+B) include module_name
+C) use module_name
+D) import (module_name)
+Answer: A) import module_name
+
+Q5: How can you invoke a function that has default arguments in Python?
+
+A) function_name(arg1, arg2)
+B) function_name(arg1)
+C) function_name()
+D) function_name(arg1) when arguments are defined
+Answer: B) function_name(arg1)
+
+Q6: What will the result be for the following Python code??
+
+def multiply(a, b=5):
+    return a * b
+
+print(multiply(4))
+
+A) 20
+B) 4
+C) Error
+D) 5
+Answer: A) 20
+
+Q7: Which function can be used to return the length of a string in Python?
+
+A) length()
+B) len()
+C) size()
+D) lengthof()
+Answer: B) len()
+
+Q8: What output can be expected from the following Python code?
+
+def greet(name="Guest"):
+    print("Hello, " + name)
+
+greet()
+greet("Alice")
+
+A) Hello, Guest
+B) Hello, Alice
+C) Hello, Guest Alice
+D) Error
+Answer: A) Hello, Guest and B) Hello, Alice
+
+Q9: How can you define a recursive function in Python?
+
+A) By calling the function inside its own definition
+B) By importing a recursive module
+C) By using a loop inside the function
+D) By using a class definition
+Answer: A) By calling the function inside its own definition
+
+Q10: What is the result of this code?
+
+def add(a, b=2):
+    return a + b
+
+print(add(5))
+
+A) 5
+B) 7
+C) Error
+D) None
+Answer: B) 7
+
+Q11: How do you return a value from a function in Python?
+
+A) return value
+B) yield value
+C) return()
+D) function(value)
+Answer: A) return value
+
+Q12: What will the following code output?
+
+def add(a, b=3):
+    return a + b
+print(add(5))
+
+A) 5
+B) 3
+C) 8
+D) None
+Answer: C) 8
+
+Q13: What will the result be for the following Python code??
+
+def subtract(a, b=2):
+    return a - b
+print(subtract(10))
+
+A) 8
+B) 2
+C) 10
+D) None
+Answer: A) 8
+
+Q14: Which of the following is a correct way to call a function with default parameters in Python?
+
+A) function_name(arg1)
+B) function_name()
+C) function_name(arg1, arg2=2)
+D) All of the above
+Answer: D) All of the above
+
+Q15: What, according to you, will be the output of the following code?
+
+def multiply(a, b=5):
+    return a * b
+print(multiply(4, 2))
+
+A) 10
+B) 20
+C) 8
+D) None
+Answer: C) 8
+
+Q16: Which built-in Python function can be used to find the number of items in an iterable object?
+
+A) len()
+B) count()
+C) items()
+D) length()
+Answer: A) len()
+
+Q17: How can you import a specific function from a module in Python?
+
+A) from module import function_name
+B) import module.function_name
+C) include module.function_name
+D) import function_name from module
+
+Answer: A) from module import function_name
+
+--------------------------------------------------------------------Data Structures in Python-----------------------------------------------
+
+Q1: How do you add an element to a Python list?
+
+A) list.add()
+B) list.insert()
+C) list.append()
+D) list.push()
+Answer: C) list.append()
+
+Q2: What will the result be for the following Python code??
+
+x = (1, 2, 3)
+print(type(x))
+
+A) <class 'list'>
+B) <class 'tuple'>
+C) <class 'set'>
+D) <class 'dict'>
+Answer: B) <class 'tuple'>
+
+Q3: How can you access a specific element in a dictionary in Python?
+
+A) dict[index]
+B) dict.element()
+C) dict.key()
+D) dict[key]
+Answer: D) dict[key]
+
+Q4: Which of the following is true about a Python set?
+
+A) Sets can contain duplicate elements
+B) Sets are unordered collections
+C) Sets support indexing
+D) Sets are mutable
+Answer: B) Sets are unordered collections
+
+Q5: How do you remove a key-value pair from a dictionary in Python?
+
+A) dict.remove()
+B) del dict[key]
+C) dict.delete()
+D) dict.pop()
+Answer: B) del dict[key]
+
+Q6: Which of the following is an ordered collection in Python?
+
+A) set
+B) dictionary
+C) tuple
+D) list
+Answer: D) list
+
+Q7: Which data structure would you use to store unique items in an unordered collection?
+
+A) list
+B) dictionary
+C) set
+D) tuple
+Answer: C) set
+
+Q8. Which of the following is an ordered collection of elements in Python?
+
+A) Set
+B) List
+C) Dictionary
+D) Tuple
+Answer: B) List
+
+Q9: Which method can be used to remove all elements from a list in Python?
+
+A) x.clear()
+B) x.delete()
+C) x.remove_all()
+D) x.reset()
+Answer: A) x.clear()
+
+Q10: What is the primary difference between a tuple and a list in Python?
+
+A) A tuple is mutable, while a list is immutable.
+B) A tuple is ordered, while a list is unordered.
+C) A tuple is immutable, while a list is mutable.
+D) A tuple cannot store strings, while a list can.
+Answer: C) A tuple is immutable, while a list is mutable.
+
+
+-------------------------------------------------------Intermediate-Level Python MCQ---------------------------------
+---------------File Handling and Exception Handling---------------
+
+Q1: Which of the following function is used to open a file in Python?
+
+A) file()
+B) open()
+C) openfile()
+D) fileopen()
+Answer: B) open()
+
+Q2: What mode is used to open a file for writing in Python?
+
+A) r
+B) w
+C) a
+D) x
+Answer: B) w
+
+Q3: Which exception is raised when there is an attempt to divide by zero?
+
+A) ZeroDivisionError
+B) TypeError
+C) ValueError
+D) IndexError
+Answer: A) ZeroDivisionError
+
+Q4: Which of the following is the correct way to handle an exception in Python?
+
+A) try...except
+B) catch...finally
+C) except...try
+D) try...catch
+Answer: A) try...except
+
+Q5: What does the finally block do in Python?
+
+A) Executes only if there is an exception
+B) Executes after the try block, regardless of whether an exception occurred
+C) Is never executed
+D) Catches specific exceptions
+Answer: B) Executes after the try block, regardless of whether an exception occurred
+
+Q6: What does the open() function return when a file is opened successfully?
+
+A) None
+B) True
+C) File object
+D) String
+Answer: C) File object
+
+Q7: How do you close a file in Python?
+
+A) close(file)
+B) file.close()
+C) file.shutdown()
+D) end(file)
+Answer: B) file.close()
+
+Q8: Which exception is raised when there is an issue with file input/output operations?
+
+A) FileNotFoundError
+B) IOError
+C) ValueError
+D) KeyError
+Answer: B) IOError
+
+Q9: What is the default mode when opening a file in Python?
+
+A) r+
+B) w
+C) r
+D) a
+Answer: C) r
+
+Q10: What method is used to read a file line by line in Python?
+
+A) readline()
+B) read()
+C) readlines()
+D) next()
+Answer: A) readline()
+
+Q11: Which function is used to raise an exception manually?
+
+A) throw()
+B) raise()
+C) error()
+D) exception()
+Answer: B) raise()
+
+Q12: Which statement will open a file for both reading and writing in Python?
+
+A) open("file.txt", "r")
+B) open("file.txt", "w")
+C) open("file.txt", "r+")
+D) open("file.txt", "a+")
+Answer: C) open("file.txt", "r+")
+
+Q13: How do you check if a file exists before opening it in Python?
+
+A) os.check()
+B) os.path.exists()
+C) os.exists()
+D) isfile()
+Answer: B) os.path.exists()
+
+Q14: Which of the following is not an exception in Python?
+
+A) FileNotFoundError
+B) TypeError
+C) FileError
+D) ZeroDivisionError
+Answer: C) FileError
+
+Q15: How do you open a file in append mode in Python?
+
+A) open('file.txt', 'a')
+B) open('file.txt', 'w')
+C) open('file.txt', 'r')
+D) open('file.txt', 'x')
+Answer: A) open('file.txt', 'a')
+
+Q16: What is the purpose of the os module in file handling?
+
+A) Handle operating system-related tasks like path operations and file manipulation
+B) Handle system-level errors
+C) Open and close files
+D) Perform mathematical operations
+Answer: A) Handle operating system-related tasks like path operations and file manipulation
+
+Q17: Which of the following is used to catch multiple exceptions in one except block?
+
+A) except (TypeError, ValueError):
+B) except ValueError, TypeError:
+C) except TypeError and ValueError:
+D) catch (TypeError, ValueError):
+Answer: A) except (TypeError, ValueError):
+
+Q18: What output can be expected from the following Python code?
+
+try:
+    x = 5 / 0
+except ZeroDivisionError:
+    print("Error occurred")
+else:
+    print("No Error")
+finally:
+    print("Execution complete")
+
+A) Error occurred
+B) No Error
+C) Error occurred Execution complete
+D) No Error Execution complete
+Answer: C) Error occurred Execution complete
+
+Q19: Which of the following is used to read all contents of a file at once in Python?
+
+A) read()
+B) readlines()
+C) readall()
+D) next()
+Answer: A) read()
+
+Q20: What does with statement do in file handling in Python?
+
+A) Automatically closes the file after exiting the block
+B) Opens the file in write mode
+C) Creates a file if it doesn’t exist
+D) Automatically reads the file
+Answer: A) Automatically closes the file after exiting the block
+
+
+--------------------Object-Oriented Programming in Python---------------------
+
+Q1: What is a class in Python?
+
+A) A blueprint for creating objects
+B) A function
+C) A method of an object
+D) A variable
+Answer: A) A blueprint for creating objects
+
+Q2: How do you create an object in Python?
+
+A) object()
+B) class()
+C) object_name = ClassName()
+D) ClassName.create()
+Answer: C) object_name = ClassName()
+
+Q3: What is the purpose of the __init__() method in a class?
+
+A) It is used to initialize the object when it is created
+B) It initializes the class variables
+C) It defines a class function
+D) It is a destructor
+Answer: A) It is used to initialize the object when it is created
+
+Q4: In Python, which of the following is true about inheritance?
+
+A) A class can inherit attributes and methods from another class
+B) A class cannot inherit from another class
+C) A class can inherit only attributes, not methods
+D) Inheritance is not supported in Python
+Answer: A) A class can inherit attributes and methods from another class
+
+Q5: What is the term for a function that is defined inside a class?
+
+A) Constructor
+B) Object method
+C) Class variable
+D) Instance method
+Answer: D) Instance method
+
+Q6: What keyword is used to define a method inside a class in Python?
+
+A) func
+B) method
+C) def
+D) class
+Answer: C) def
+
+Q7: What is polymorphism in Python?
+
+A) Ability of a single function to operate on multiple data types
+B) Inheriting from multiple classes
+C) Creating multiple classes from one class
+D) Overloading a function
+Answer: A) Ability of a single function to operate on multiple data types
+
+Q8: How do you define a class in Python?
+
+A) class ClassName:
+B) def ClassName:
+C) object ClassName:
+D) ClassName()
+Answer: A) class ClassName:
+
+Q9: Which function can be used to call a method from a parent class in Python?
+
+A) super()
+B) parent()
+C) superclass()
+D) base()
+Answer: A) super()
+
+Q10: What is the concept of encapsulation in object-oriented programming?
+
+A) Hiding the internal implementation details of an object
+B) Creating an object
+C) Calling a method
+D) Initializing variables
+Answer: A) Hiding the internal implementation details of an object
+
+Q11: Which of the following is an example of multiple inheritance in Python?
+
+A) class C(A, B):
+B) class C(A):
+C) class C(B):
+D) class A(A, B):
+Answer: A) class C(A, B):
+
+Q12: Which of the following methods is called when an object is deleted?
+
+A) __del__()
+B) __delete__()
+C) __destroy__()
+D) __remove__()
+Answer: A) __del__()
+
+Q13: How would you define a class variable?
+
+A) Inside a method
+B) Outside any method but inside the class
+C) Outside the class
+D) Inside a function
+Answer: B) Outside any method but inside the class
+
+Q14: What does the self keyword refer to in Python?
+
+A) The class itself
+B) The instance of the class
+C) A reference to the parent class
+D) None of the above
+Answer: B) The instance of the class
+
+Q15: What is the purpose of the @staticmethod decorator in Python?
+
+A) To define a class method
+B) To define a static method that doesn't require an instance of the class
+C) To create an object of the class
+D) To initialize the method
+Answer: B) To define a static method that doesn't require an instance of the class
+
+Q16: Which of the following statements about Python's __str__() method is true?
+
+A) It is used to get a string representation of an object.
+B) It is used to define an object's behavior during comparisons.
+C) It is used to set values for object attributes.
+D) It is used to delete an object.
+Answer: A) It is used to get a string representation of an object.
+
+Q17: Which of the following best describes the __init__() method?
+
+A) It initializes a class variable
+B) It initializes the state of an object
+C) It sets a value for the class
+D) It is a destructor method
+Answer: B) It initializes the state of an object
+
+Q18: In Python, when a subclass object is created, which method is automatically called first?
+
+A) __init__() method of the parent class
+B) __init__() method of the subclass
+C) super()
+D) self()
+Answer: B) __init__() method of the subclass
+
+Q19: Which of the following statements is used to create a derived class in Python?
+
+A) class Derived(A):
+B) class Derived extends A:
+C) class Derived->A:
+D) class Derived(A)->:
+Answer: A) class Derived(A):
+
+Q20: What is method overriding in Python?
+
+A) A subclass provides a specific implementation for a method already defined in the parent class
+B) A method is executed more than once
+C) A method is deleted after use
+D) A method is overridden by an external library
+Answer: A) A subclass provides a specific implementation for a method already defined in the parent class
+
+
+----------------------------Advanced Python MCQs---------------------------------------------------
+Q1: Which module is used for working with regular expressions in Python?
+
+A) re
+B) regex
+C) regexp
+D) re.compile
+Answer: A) re
+
+Q2: Which of the following is true about list comprehension?
+
+A) It is used to create a new list by applying an expression to each element of an existing iterable
+B) It is used to concatenate two lists
+C) It is used for creating a tuple
+D) It is a method for reading from a file
+Answer: A) It is used to create a new list by applying an expression to each element of an existing iterable
+
+Q3: What is a generator in Python?
+
+A) A function that returns an iterable
+B) A loop
+C) A type of list comprehension
+D) A built-in Python module
+Answer: A) A function that returns an iterable
+
+Q4: What is the purpose of the yield keyword in Python?
+
+A) It is used to return a value from a generator
+B) It stops the loop
+C) It starts a new function
+D) It creates a list
+Answer: A) It is used to return a value from a generator
+
+Q5: Which of the following is the correct syntax for a decorator in Python?
+
+A) @decorator
+B) decorator@
+C) decorate()
+D) function@decorator
+Answer: A) @decorator
+
+Q6: How do you apply a regular expression in Python?
+
+A) re.match()
+B) re.regex()
+C) regex.match()
+D) re.examine()
+Answer: A) re.match()
+
+Q7: Which of the following is true about Python generators?
+
+A) They allow lazy evaluation and can be used to generate infinite sequences
+B) They are always created by using the def keyword
+C) They cannot be iterated over multiple times
+D) They do not use memory to store values
+Answer: A) They allow lazy evaluation and can be used to generate infinite sequences
+
+Q8: What is the result of this list comprehension in Python?
+
+[i**2 for i in range(5)]
+
+A) [0, 1, 4, 9, 16]
+B) [0, 1, 2, 3, 4]
+C) [1, 4, 9, 16, 25]
+D) [0, 2, 4, 6, 8]
+Answer: A) [0, 1, 4, 9, 16]
+
+Q9: What is the primary advantage of using decorators in Python?
+
+A) To add functionality to a function dynamically without modifying the original code
+B) To create new classes
+C) To add new variables to functions
+D) To override functions
+Answer: A) To add functionality to a function dynamically without modifying the original code
+
+Q10: Which of the following is a commonly used Python library for scientific computing and working with arrays?
+
+A) NumPy
+B) Matplotlib
+C) Pandas
+D) SciPy
+Answer: A) NumPy
+
+Q11: What does import pandas as pd do in Python?
+
+A) Imports the pandas library and aliases it as pd
+B) Imports the pandas module
+C) Imports the pandas function
+D) Creates a new class pd from pandas
+
+Answer: A) Imports the pandas library and aliases it as pd
+
+Q12: What does the re.sub() function do in Python?
+
+A) It replaces occurrences of a pattern with a substitute string
+B) It finds all occurrences of a pattern
+C) It matches a regular expression
+D) It checks if the string matches a pattern
+Answer: A) It replaces occurrences of a pattern with a substitute string
+
+Q13: What does the @property decorator do in Python?
+
+A) It defines a method as a read-only property
+B) It defines a method that can be used as a property with a getter and setter
+C) It creates a private variable
+D) It defines a class method
+Answer: B) It defines a method that can be used as a property with a getter and setter
+
+Q14: Which of the following statements is true about memory management in Python?
+
+A) Python automatically manages memory through garbage collection
+B) Memory management in Python is manually handled by the user
+C) Memory is only released when the program ends
+D) Memory is not managed in Python
+Answer: A) Python automatically manages memory through garbage collection
+
+Q15: What is the purpose of the re.findall() function in Python?
+
+A) To find all non-overlapping matches of a pattern
+B) To find the first match
+C) To check if a pattern matches a string
+D) To search for patterns in a list
+
+Answer: A) To find all non-overlapping matches of a pattern
+
+
+---------------------------------------------------------Python MCQ Based on Python Libraries-------------------------------------------------------
+Q1: Which of the following is a Python library used for numerical computations?
+
+a) Matplotlib
+b) Pandas
+c) NumPy
+d) SciPy
+Answer: c) NumPy
+
+Q2: Which library would you use to create static, animated, and interactive visualizations in Python?
+
+a) TensorFlow
+b) Matplotlib
+c) NumPy
+d) Pillow
+Answer: b) Matplotlib
+
+Q3: Which Python library is primarily used for data manipulation and analysis, particularly with DataFrame structures?
+
+a) NumPy
+b) Pandas
+c) Matplotlib
+d) Scikit-learn
+Answer: b) Pandas
+
+Q4: What does the requests library in Python primarily allow you to do?
+
+a) Perform data analysis
+b) Create plots and visualizations
+c) Send HTTP requests and handle responses
+d) Perform machine learning tasks
+Answer: c) Send HTTP requests and handle responses
+
+Q5: Which library would you use for machine learning tasks such as classification, regression, clustering, and more?
+
+a) Matplotlib
+b) Scikit-learn
+c) Pillow
+d) NumPy
+Answer: b) Scikit-learn
+
+Q6: What is the purpose of the TensorFlow library?
+
+a) Data analysis and manipulation
+b) Deep learning and neural network development
+c) HTTP requests
+d) Data visualization
+Answer: b) Deep learning and neural network development
+
+Q7: Which of the following Python libraries is used for working with images?
+
+a) NumPy
+b) Pillow
+c) Pandas
+d) Matplotlib
+Answer: b) Pillow
+
+Q8: Which Python library would you use to interact with databases using SQL queries?
+
+a) sqlite3
+b) Pandas
+c) Scikit-learn
+d) TensorFlow
+Answer: a) sqlite3
+
+Q9: Which library is used for natural language processing (NLP) tasks?
+
+a) TensorFlow
+b) NLTK
+c) Pandas
+d) Matplotlib
+Answer: b) NLTK
