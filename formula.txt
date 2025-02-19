@@ -3,3 +3,12 @@
 3. formula for permutation: npr = n!/ (n-r)!
 4. formula for combination: ncr = n! / r!(n-r)!
 5. formula for sqrt of a num: sqrt = n ** 1/2 or n ** 0.5
+
+6.
+Calculate the slopes between consecutive pairs of points:
+For (x1, y1) to (x2, y2): slope1 = (y2 - y1) / (x2 - x1)
+For (x2, y2) to (x3, y3): slope2 = (y3 - y2) / (x3 - x2)
+If the slopes are not equal, the points are not collinear and hence form a boomerang.
+But there is a corner case of division by zero. So, cross multiply the denominators of the slopes and check equality of:
+                (y2-y1)*(x3-x2) != (y3-y2)*(x2-x1)
+
