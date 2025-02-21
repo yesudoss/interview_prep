@@ -21,3 +21,18 @@ class Solution:
                 left = mid + 1
 
         return left
+# My solution with Bug
+
+# class Solution:
+#     def shipWithinDays(self, weights: List[int], days: int) -> int:
+#         left = max(weights)
+#         right = sum(weights)
+#         # weight_sum = sum()
+#         while left <=right:
+#             mid = (left + right) // 2
+#             if mid*days==sum(weights):
+#                 return mid
+#             elif mid*days> sum(weights):
+#                 right = mid-1
+#             else:
+#                 left = mid+1
